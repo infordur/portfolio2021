@@ -1,0 +1,429 @@
+// Colors
+$highlightColorCode: #ae1a2f;
+
+$none: none;
+$red1: #d8334a;
+$red2: #ed5565;
+$orange: #fc6e51;
+$yellow1: #ffce54;
+$yellow2: #e8ce4d;
+$green1: #a0d468;
+$green2: #2ecc71;
+$mint: #48cfad;
+$teal: #a0cecb;
+$aqua: #4fc1e9;
+$blue1: #4fc1e9;
+$blue2: #5d9cec;
+$magenta1: #ac92ec;
+$magenta2: #8067b7;
+$pink1: #ec87c0;
+$pink2: #fa6a8e;
+$brown1: #baa286;
+$brown2: #8e8271;
+$gray1: #f5f7fa;
+$gray2: #ccd1d9;
+$dark1: #656d78;
+$dark2: #3c3b3d;
+$white: #fff;
+
+// Dark Colors
+$highlightColorCode-dark: darken($highlightColorCode, 10%);
+$red1-dark: #bf263c;
+$red2-dark: #da4453;
+$orange-dark: #e9573f;
+$yellow1-dark: #f6bb42;
+$yellow2-dark: #e0c341;
+$green1-dark: #8cc152;
+$green2-dark: #2aba66;
+$mint-dark: #37bc9b;
+$teal-dark: #7db1b1;
+$aqua-dark: #3bafda;
+$blue1-dark: #3bafda;
+$blue2-dark: #4a89dc;
+$magenta1-dark: #967adc;
+$magenta2-dark: #6a50a7;
+$pink1-dark: #d770ad;
+$pink2-dark: #fb3365;
+$brown1-dark: #aa8e69;
+$brown2-dark: #7b7163;
+$gray1-dark: #e6e9ed;
+$gray2-dark: #aab2bd;
+$dark1-dark: #434a54;
+$dark2-dark: #323133;
+
+// Dark Colors Gradient
+
+$red1-dark-gradient: #9d0f23;
+$red2-dark-gradient: #a71222;
+$orange-dark-gradient: #ce3319;
+$yellow1-dark-gradient: #e6a00f;
+$yellow2-dark-gradient: #dbb50c;
+$green1-dark-gradient: #5ba30b;
+$green2-dark-gradient: #0da24b;
+$mint-dark-gradient: #0fa781;
+$teal-dark-gradient: #158383;
+$aqua-dark-gradient: #0a8ab9;
+$blue1-dark-gradient: #0b769d;
+$blue2-dark-gradient: #1a64c6;
+$magenta1-dark-gradient: #704dc9;
+$magenta2-dark-gradient: #4e3190;
+$pink1-dark-gradient: #c73c8e;
+$pink2-dark-gradient: #d30e3f;
+$brown1-dark-gradient: #896b43;
+$brown2-dark-gradient: #584934;
+$gray1-dark-gradient: #c2c5c9;
+$gray2-dark-gradient: #88919d;
+$dark1-dark-gradient: #242b34;
+$dark2-dark-gradient: #1c191f;
+
+// Social Colors
+$facebook: #3b5998;
+$linkedin: #0077b5;
+$twitter: #4099ff;
+$google: #d34836;
+$whatsapp: #34af23;
+$pinterest: #c92228;
+$sms: #27ae60;
+$mail: #3498db;
+$dribbble: #ea4c89;
+$phone: #27ae60;
+$skype: #12a5f4;
+$instagram: #e1306c;
+$telegram: #0088cc;
+
+
+// Developer Colors
+$angular: #a6120d;
+$react: #61DBFB;
+$javascript: #f0db4f;
+$html: #e34c26;
+$css: #264de4;
+$bootstrap: #080135;
+$nodejs: #3c873a;
+$php: #8993be;
+$sass: #cd6799;
+$git: #f34f29;
+
+
+
+.color-highlight {
+    color: $highlightColorCode !important;
+}
+
+.bg-highlight {
+    background-color: $highlightColorCode !important;
+}
+
+// Developer Colors
+.color-angular {
+    color: $angular !important;
+}
+
+.color-react {
+    color: $react !important;
+}
+
+.color-javascript {
+    color: $javascript !important;
+}
+
+.color-html {
+    color: $html !important;
+}
+
+.color-css {
+    color: $css !important;
+}
+
+.color-bootstrap {
+    color: $bootstrap !important;
+}
+
+.color-nodejs {
+    color: $nodejs !important;
+}
+
+.color-sass {
+    color: $sass !important;
+}
+
+.color-php {
+    color: $php !important;
+}
+
+.color-git {
+    color: $git !important;
+}
+
+// Bakcground Developer
+.bg-angular {
+    background-color: $angular !important;
+}
+
+.bg-react {
+    background-color: $react !important;
+}
+
+.bg-javascript {
+    background-color: $javascript !important;
+}
+
+.bg-html {
+    background-color: $html !important;
+}
+
+.bg-css {
+    background-color: $css !important;
+}
+
+.bg-bootstrap {
+    background-color: $bootstrap !important;
+}
+
+.bg-nodejs {
+    background-color: $nodejs !important;
+}
+
+.bg-sass {
+    background-color: $sass !important;
+}
+
+.bg-php {
+    background-color: $php !important;
+}
+
+.bg-git {
+    background-color: $git !important;
+}
+
+// Background Light
+.bg-highlight-light {
+    background-color: $highlightColorCode !important;
+    color: #ffffff !important;
+}
+
+.bg-red1-light {
+    background-color: $red1 !important;
+    color: #ffffff !important;
+}
+
+.bg-red2-light {
+    background-color: $red2 !important;
+    color: #ffffff !important;
+}
+
+.bg-orange-light {
+    background-color: $orange !important;
+    color: #ffffff !important;
+}
+
+.bg-yellow1-light {
+    background-color: $yellow1 !important;
+    color: #ffffff !important;
+}
+
+.bg-yellow2-light {
+    background-color: $yellow2 !important;
+    color: #ffffff !important;
+}
+
+.bg-green1-light {
+    background-color: $green1 !important;
+    color: #ffffff !important;
+}
+
+.bg-green2-light {
+    background-color: $green2 !important;
+    color: #ffffff !important;
+}
+
+.bg-mint-light {
+    background-color: $mint !important;
+    color: #ffffff !important;
+}
+
+.bg-teal-light {
+    background-color: $teal !important;
+    color: #ffffff !important;
+}
+
+.bg-aqua-light {
+    background-color: $aqua !important;
+    color: #ffffff !important;
+}
+
+.bg-blue1-light {
+    background-color: $blue1 !important;
+    color: #ffffff !important;
+}
+
+.bg-blue2-light {
+    background-color: $blue2 !important;
+    color: #ffffff !important;
+}
+
+.bg-magenta1-light {
+    background-color: $magenta1 !important;
+    color: #ffffff !important;
+}
+
+.bg-magenta2-light {
+    background-color: $magenta2 !important;
+    color: #ffffff !important;
+}
+
+.bg-pink1-light {
+    background-color: $pink1 !important;
+    color: #ffffff !important;
+}
+
+.bg-pink2-light {
+    background-color: $pink2 !important;
+    color: #ffffff !important;
+}
+
+.bg-brown1-light {
+    background-color: $brown1 !important;
+    color: #ffffff !important;
+}
+
+.bg-brown2-light {
+    background-color: $brown2 !important;
+    color: #ffffff !important;
+}
+
+.bg-gray1-light {
+    background-color: $gray1 !important;
+    color: #ffffff !important;
+}
+
+.bg-gray2-light {
+    background-color: $gray2 !important;
+    color: #ffffff !important;
+}
+
+.bg-dark1-light {
+    background-color: $dark1 !important;
+    color: #ffffff !important;
+}
+
+.bg-dark2-light {
+    background-color: $dark2 !important;
+    color: #ffffff !important;
+}
+
+// Backgrounds Dark
+.bg-highlight-dark {
+    background-color: $highlightColorCode-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-red1-dark {
+    background-color: $red1 !important;
+    color: #ffffff !important;
+}
+
+.bg-red2-dark {
+    background-color: $red2 !important;
+    color: #ffffff !important;
+}
+
+.bg-orange-dark {
+    background-color: $orange-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-yellow1-dark {
+    background-color: $yellow1-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-yellow2-dark {
+    background-color: $yellow2-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-green1-dark {
+    background-color: $green1-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-green2-dark {
+    background-color: $green2-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-mint-dark {
+    background-color: $mint-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-teal-dark {
+    background-color: $teal-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-aqua-dark {
+    background-color: $aqua-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-blue1-dark {
+    background-color: $blue1-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-blue2-dark {
+    background-color: $blue2-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-magenta1-dark {
+    background-color: $magenta1-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-magenta2-dark {
+    background-color: $magenta2-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-pink1-dark {
+    background-color: $pink1-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-pink2-dark {
+    background-color: $pink2-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-brown1-dark {
+    background-color: $brown1-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-brown2-dark {
+    background-color: $brown2-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-gray1-dark {
+    background-color: $gray1-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-gray2-dark {
+    background-color: $gray2-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-dark1-dark {
+    background-color: $dark1-dark !important;
+    color: #ffffff !important;
+}
+
+.bg-dark2-dark {
+    background-color: $dark2-dark !important;
+    color: #ffffff !important;
+}

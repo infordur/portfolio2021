@@ -1,0 +1,135 @@
+/* ÍNDICE 
+* 1 - Mixins
+* 2 - Fonts
+* 3 - Globals
+* 4 - Color Palette
+* 5 - Header
+* 6 - Body
+* 7 - Footer
+* 8 - Responsive
+*/
+
+/* **** 1 - Mixins  *** */
+@import './mixins.scss';
+
+/* *** 2 - Fonts *** */
+@import './fonts.scss';
+
+/* *** 4 - Color Palette *** */
+@import './colors.scss';
+
+/* *** 3 - Globals *** */
+@import './globals.scss';
+
+
+/* *** 5 - Header *** */
+.navbar {
+    transition: background-color 0.35s ease;
+
+    &.active {
+        background-color: $white;
+
+        .page-name {
+            color: $dark2-dark;
+        }
+        .nav-item a {
+            color: $dark2-dark !important;
+        }
+    }
+}
+
+/* *** 6 - Body *** */
+
+// 6.1 - Intro
+#intro {
+    height: 100vh;
+    .title {
+        z-index: 10;
+    }
+    .page-title {
+        font-family: BrushKing;
+        line-height: 5.5rem;
+    }
+
+    .page-subtitle {
+        display: initial;
+        position: relative;
+    }
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.border-top {
+    border-top: 1px solid white;
+}
+
+.border-bottom {
+    border-bottom: 1px solid white;
+}
+
+.tilt-parallax {
+    transform: perspective(1000px);
+}
+
+.tilt-hover-card {
+    transform-style: preserve-3d;
+    .tilt-parallax-bg {
+        transform: perspective(1000px);
+    }
+    .inner {
+        transform: translateZ(20px);
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid white;
+        margin: 20px;
+        z-index: 1;
+        box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+        h2 {
+            text-shadow: #323133 1px 1px 1px;
+        }
+    }
+}
+
+
+[data-aos="new-animation"] {
+    opacity: 0;
+    transition-property: transform, opacity;
+
+    &.aos-animate {
+        opacity: 1;
+    }
+
+    @media screen and (min-width: 768px) {
+        transform: translateX(100px);
+
+        &.aos-animate {
+            transform: translateX(0);
+        }
+    }
+}
+
+// 6.2 - About Me
+
+
+
+
+/* *** 7 - Footer *** */
+
+
+/* *** 8 - Responsive *** */
+@import './responsive.scss';

@@ -1,0 +1,58 @@
+@media (min-width: 992px) {
+    // 1 - Intro
+    #intro {
+        .page-title {
+            line-height: inherit;      
+        }
+
+        .page-subtitle {
+            display: initial;
+            position: relative;
+        }
+    }
+
+    // Margins
+    .mt-md-n-18r {
+        margin-top: -18rem !important;
+    }
+
+    // Fonts
+    .font-md-1r {
+        font-size: 1rem !important;
+    }
+
+    .font-md-2r {
+        font-size: 2rem !important;
+    }
+
+    .font-md-3r {
+        font-size: 3rem !important;
+    }
+
+    .font-md-4r {
+        font-size: 4rem !important;
+    }
+
+    .font-md-5r {
+        font-size: 5rem !important;
+    }
+
+    .font-md-6r {
+        font-size: 6rem !important;
+    }
+
+    .font-md-7r {
+        font-size: 7rem !important;
+    }
+
+    .font-md-8r {
+        font-size: 8rem !important;
+    }
+
+    // Margins
+    @for $i from 1 through 5 {
+        .mb-md-#{$i}r {
+            margin-bottom: #{$i}rem !important;
+        }
+    }
+}
